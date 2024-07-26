@@ -34,7 +34,7 @@ function loadResults() {
 			results.innerHTML = "";
 
 			const colours = data.colours.sort((a, b) =>
-				b.aliases[0].localeCompare(a.aliases[0])
+				a.aliases[0].localeCompare(b.aliases[0])
 			);
 
 			let selectedCategories = [];
@@ -59,32 +59,32 @@ function loadResults() {
 					}) &&
 					selectedCategories.includes(colour.category)
 				) {
-					const row = results.insertRow(0);
+					const colourItem = document.createElement("div");
+					colourItem.classList.add("colour-item");
 
-					const colourCell = row.insertCell(0);
-					colourCell.classList.add("colour-cell");
-					colourCell.style.backgroundColor = "#" + colour.colour;
+					const colourChip = colourItem.appendChild(
+						document.createElement("div")
+					);
+					colourChip.classList.add("colour-cell");
+					colourChip.style.backgroundColor = "#" + colour.colour;
 
-					const nameCell = row.insertCell(1);
-					nameCell.classList.add("name-cell");
-					nameCell.innerHTML = `<span class="colour-name">${colour.aliases[0]}</span><span class="colour-code">#${colour.colour}</span>`;
+					const colourName = colourItem.appendChild(
+						document.createElement("div")
+					);
+					colourName.classList.add("name-cell");
+					colourName.innerHTML = `<span class="colour-name">${colour.aliases[0]}</span><span class="colour-code">#${colour.colour}</span>`;
 
-					row.addEventListener("click", () => {
+					results.appendChild(colourItem);
+
+					colourItem.addEventListener("click", () => {
 						navigator.clipboard.writeText(`#${colour.colour}`);
-						nameCell.innerText = "Copied!";
+						colourName.innerText = "Copied!";
 						setTimeout(() => {
-							nameCell.innerHTML = `<span class="colour-name">${colour.aliases[0]}</span><span class="colour-code">#${colour.colour}</span>`;
+							colourName.innerHTML = `<span class="colour-name">${colour.aliases[0]}</span><span class="colour-code">#${colour.colour}</span>`;
 						}, 1000);
 					});
 				}
 			});
-
-			const missingResults = document.getElementById("missing-results");
-			if (results.children.length === 0) {
-				missingResults.style.display = "block";
-			} else {
-				missingResults.style.display = "none";
-			}
 		});
 }
 

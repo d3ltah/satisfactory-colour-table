@@ -21,82 +21,69 @@
 		/>
 	</head>
 	<body>
+		<h1>Satisfactory Colour Table</h1>
 		<main>
-			<h1>Satisfactory Colour Table</h1>
-
-			<p>
-				Below is a table of colours you may want to use in your projects, based
-				on in-game items and resources. Basic colours (black, white, etc.) are
-				not included.
-			</p>
-			<p>
-				Items are displayed in British English, but searching will also work in
-				American English.
-			</p>
-			<p>Click any colour to copy its hex code to your clipboard.</p>
-
-			<input
-				type="text"
-				id="search-input"
-				placeholder="Search..."
-				autocomplete="off"
-			/>
-
-			<div id="search-options">
+			<section id="desc-search">
+				<p>
+					Below is a table of colours you may want to use in your projects,
+					based on in-game items and resources. Basic colours (black, white,
+					etc.) are not included.
+				</p>
+				<p>
+					Items are displayed in British English, but searching will also work
+					in American English.
+				</p>
+				<p>Click any colour to copy its hex code to your clipboard.</p>
+				<input
+					type="text"
+					id="search-input"
+					placeholder="Search..."
+					autocomplete="off"
+				/>
 				<div id="search-options">
-					<div class="checkbox-container">
-						<span class="checkbox checked">
-							<span class="ficsit-checkmark"></span>
-						</span>
-						<label>Consumables</label>
-					</div>
-
-					<div class="checkbox-container">
-						<span class="checkbox checked">
-							<span class="ficsit-checkmark"></span>
-						</span>
-						<label>Items</label>
-					</div>
-
-					<div class="checkbox-container">
-						<span class="checkbox checked">
-							<span class="ficsit-checkmark"></span>
-						</span>
-						<label>Natural Resources</label>
-					</div>
-
-					<div class="checkbox-container">
-						<span class="checkbox checked">
-							<span class="ficsit-checkmark"></span>
-						</span>
-						<label>Processed Resources</label>
-					</div>
-
-                    <div class="checkbox-container">
-						<span class="checkbox checked">
-							<span class="ficsit-checkmark"></span>
-						</span>
-						<label>Products</label>
-					</div>
-
-					<div class="checkbox-container">
-						<span class="checkbox checked">
-							<span class="ficsit-checkmark"></span>
-						</span>
-						<label>Misc</label>
+					<div id="search-options">
+						<div class="checkbox-container">
+							<span class="checkbox checked">
+								<span class="ficsit-checkmark"></span>
+							</span>
+							<label>Consumables</label>
+						</div>
+						<div class="checkbox-container">
+							<span class="checkbox checked">
+								<span class="ficsit-checkmark"></span>
+							</span>
+							<label>Items</label>
+						</div>
+						<div class="checkbox-container">
+							<span class="checkbox checked">
+								<span class="ficsit-checkmark"></span>
+							</span>
+							<label>Natural Resources</label>
+						</div>
+						<div class="checkbox-container">
+							<span class="checkbox checked">
+								<span class="ficsit-checkmark"></span>
+							</span>
+							<label>Processed Resources</label>
+						</div>
+						<div class="checkbox-container">
+							<span class="checkbox checked">
+								<span class="ficsit-checkmark"></span>
+							</span>
+							<label>Products</label>
+						</div>
+						<div class="checkbox-container">
+							<span class="checkbox checked">
+								<span class="ficsit-checkmark"></span>
+							</span>
+							<label>Misc</label>
+						</div>
 					</div>
 				</div>
-			</div>
-
-			<table id="results"></table>
-
-			<div id="missing-results">
-				<p>
-					No results found. Please check your spelling and filter selections.
-					<br />
-					More colours will likely be added in the future.
-				</p>
-			</div>
+			</section>
+			<section id="results-container">
+				<div id="results"></div>
+			</section>
 		</main>
 
 		<script src="script.js"></script>

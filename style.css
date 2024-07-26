@@ -23,13 +23,16 @@
 body {
 	font-family: "Open Sans", sans-serif;
 	font-size: 1.2rem;
-	margin: 0;
+	margin: 120px auto;
+    width: min(90%, 3000px);
 }
 
 main {
-	width: min(90%, 1000px);
-	margin: 150px auto;
-    box-sizing: border-box;
+	margin: 0 auto;
+	box-sizing: border-box;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -42,10 +45,21 @@ select {
 	appearance: none;
 }
 
+#desc-search {
+    width: 500px;
+    flex-grow: 1;
+}
+
+#results-container {
+    min-width: fit-content;
+    flex-grow: 4;
+    min-width: 650px;
+}
+
 #search-options {
 	width: 100%;
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 10px;
@@ -65,21 +79,22 @@ select {
 }
 
 #results {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 2fr));
 	width: 100%;
-	margin-top: 50px;
 }
 
-#results tr {
-	width: 100%;
+.colour-item {
 	display: flex;
-	gap: 10px;
+	width: 100%;
+    min-width: 300px;
 	align-items: center;
-    cursor: pointer;
-    background-color: var(--white);
+	gap: 10px;
+	cursor: pointer;
 }
 
-#results tr:hover {
-    background-color: var(--lgrey);
+.colour-item:hover {
+	background-color: var(--lgrey);
 }
 
 #missing-results {
@@ -92,11 +107,11 @@ select {
 	gap: 5px;
 	cursor: pointer;
 	user-select: none;
-    margin: 5px 0;
+	margin: 5px 0;
 }
 
 .checkbox-container:hover .checkbox:not(.checked) {
-    background-color: var(--grey);
+	background-color: var(--grey);
 }
 
 .checkbox {
@@ -109,7 +124,7 @@ select {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    transition: background-color 0.2s;
+	transition: background-color 0.2s;
 }
 
 .checkbox .ficsit-checkmark {
@@ -129,20 +144,21 @@ select {
 
 .colour-cell {
 	box-sizing: content-box;
-	width: 40px;
+	min-width: 40px;
 	height: 60px;
 }
 
 .name-cell {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
+    white-space: nowrap;
 }
 
 .colour-name {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 .colour-code {
-    color: var(--dgrey);
-    font-size: 0.8em;
+	color: var(--dgrey);
+	font-size: 0.8em;
 }
