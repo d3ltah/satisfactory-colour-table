@@ -51,6 +51,21 @@
 			"category": "Fluids"
 		},
         {
+            "colour": "a0c4db",
+            "aliases": ["Blue Power Slug"],
+            "category": "Items"
+        },
+        {
+            "colour": "e7c797",
+            "aliases": ["Yellow Power Slug"],
+            "category": "Items"
+        },
+        {
+            "colour": "bc78d0",
+            "aliases": ["Purple Power Slug"],
+            "category": "Items"
+        },
+        {
             "colour": "fa9549",
             "aliases": ["FICSIT Orange"],
             "category": "Misc"
