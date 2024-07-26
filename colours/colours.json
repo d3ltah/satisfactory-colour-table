@@ -61,6 +61,11 @@
             "category": "Natural Resources"
         },
         {
+            "colour": "a31d22",
+            "aliases": ["Explosive Rebar"],
+            "category": "Consumables"
+        },
+        {
             "colour": "eb7d15",
             "aliases": ["Fuel"],
             "category": "Processed Resources"
@@ -84,6 +89,11 @@
             "colour": "808182",
             "aliases": ["Iron"],
             "category": "Natural Resources"
+        },
+        {
+            "colour": "ce8224",
+            "aliases": ["Iron Rebar"],
+            "category": "Consumables"
         },
         {
             "colour": "3b532c",
@@ -136,9 +146,19 @@
             "category": "Natural Resources"
         },
         {
+            "colour": "7a3272",
+            "aliases": ["Shatter Rebar"],
+            "category": "Consumables"
+        },
+        {
             "colour": "3c3f47",
             "aliases": ["Steel"],
             "category": "Processed Resources"
+        },
+        {
+            "colour": "137faf",
+            "aliases": ["Stun Rebar"],
+            "category": "Consumables"
         },
         {
             "colour": "d0b955",
