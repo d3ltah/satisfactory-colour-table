@@ -66,13 +66,16 @@ function loadResults() {
 					colourCell.style.backgroundColor = "#" + colour.colour;
 
 					const nameCell = row.insertCell(1);
-					nameCell.innerText = colour.aliases[0];
+					nameCell.classList.add("name-cell");
+					nameCell.innerHTML = `<span class="colour-name">${colour.aliases[0]}</span><span class="colour-code">#${colour.colour}</span>`;
 
-                    row.addEventListener("click", () => {
-                        navigator.clipboard.writeText(`#${colour.colour}`);
-                        nameCell.innerText = "Copied!";
-                        setTimeout(() => (nameCell.innerText = colour.aliases[0]), 1000);
-                    })
+					row.addEventListener("click", () => {
+						navigator.clipboard.writeText(`#${colour.colour}`);
+						nameCell.innerText = "Copied!";
+						setTimeout(() => {
+							nameCell.innerHTML = `<span class="colour-name">${colour.aliases[0]}</span><span class="colour-code">#${colour.colour}</span>`;
+						}, 1000);
+					});
 				}
 			});
 
@@ -88,7 +91,7 @@ function loadResults() {
 loadResults();
 
 fetch("colours/colours.json")
-    .then((response) => response.json())
-    .then((data) => {
-        searchInput.placeholder = `Search ${data.colours.length} colours`;
-    });
+	.then((response) => response.json())
+	.then((data) => {
+		searchInput.placeholder = `Search ${data.colours.length} colours`;
+	});

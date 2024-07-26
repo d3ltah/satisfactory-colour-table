@@ -125,3 +125,17 @@ select {
 	width: 40px;
 	height: 60px;
 }
+
+.name-cell {
+    display: flex;
+    flex-direction: column;
+}
+
+.colour-name {
+    font-weight: 600;
+}
+
+.colour-code {
+    color: var(--dgrey);
+    font-size: 0.8em;
+}
