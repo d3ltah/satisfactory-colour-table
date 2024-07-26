@@ -137,7 +137,7 @@ select {
 }
 
 .checkbox.checked {
-	background-color: var(--ficsit-blue);
+	background-color: var(--ficsit-orange);
 }
 
 .colour-cell {
