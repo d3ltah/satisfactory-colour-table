@@ -38,7 +38,7 @@
         {
             "colour": "6e603c",
             "aliases": ["Biomass"],
-            "category": "Items"
+            "category": "Processed Resources"
         },
         {
             "colour": "ca4d5e",
@@ -49,6 +49,16 @@
             "colour": "3c404e",
             "aliases": ["Coal"],
             "category": "Natural Resources"
+        },
+        {
+            "colour": "908277",
+            "aliases": ["Concrete"],
+            "category": "Processed Resources"
+        },
+        {
+            "colour": "76545c",
+            "aliases": ["Copper Powder"],
+            "category": "Processed Resources"
         },
         {
             "colour": "183120",
@@ -89,6 +99,16 @@
             "colour": "caa154",
             "aliases": ["Employee of the Planet Gold"],
             "category": "Misc"
+        },
+        {
+            "colour": "656269",
+            "aliases": ["Empty Canister"],
+            "category": "Processed Resources"
+        },
+        {
+            "colour": "e0d6b9",
+            "aliases": ["Encased Industrial Beam"],
+            "category": "Products"
         },
         {
             "colour": "a31d22",
@@ -173,7 +193,7 @@
         {
             "colour": "69666b",
             "aliases": ["Mycelia"],
-            "category": "Items"
+            "category": "Natural Resources"
         },
         {
             "colour": "d9d9a2",
@@ -226,6 +246,11 @@
             "category": "Natural Resources"
         },
         {
+            "colour": "cfc39d",
+            "aliases": ["Quickwire"],
+            "category": "Processed Resources"
+        },
+        {
             "colour": "be6a31",
             "aliases": ["Rifle Ammo"],
             "category": "Consumables"
@@ -244,6 +269,16 @@
             "colour": "7a3272",
             "aliases": ["Shatter Rebar"],
             "category": "Consumables"
+        },
+        {
+            "colour": "d5d8e3",
+            "aliases": ["Silica"],
+            "category": "Processed Resources"
+        },
+        {
+            "colour": "a6999b",
+            "aliases": ["Solid Biofuel"],
+            "category": "Processed Resources"
         },
         {
             "colour": "742a3e",
@@ -286,9 +321,19 @@
             "category": "Natural Resources"
         },
         {
+            "colour": "d4e544",
+            "aliases": ["Uranium Waste"],
+            "category": "Processed Resources"
+        },
+        {
             "colour": "7ab0d4",
             "aliases": ["Water"],
             "category": "Natural Resources"
+        },
+        {
+            "colour": "aa7c5c",
+            "aliases": ["Wire"],
+            "category": "Processed Resources"
         },
         {
             "colour": "ab9a7f",
