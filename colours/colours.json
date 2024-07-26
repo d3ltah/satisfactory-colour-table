@@ -1,0 +1,114 @@
+{
+	"colours": [
+        {
+            "colour": "c1c1c1",
+            "aliases": ["Alumina Solution"],
+            "category": "Fluids"
+        },
+		{
+			"colour": "190019",
+			"aliases": ["Crude Oil"],
+			"category": "Fluids"
+		},
+		{
+			"colour": "eb7d15",
+			"aliases": ["Fuel"],
+			"category": "Fluids"
+		},
+		{
+			"colour": "6d2d78",
+			"aliases": ["Heavy Oil Residue"],
+			"category": "Fluids"
+		},
+		{
+			"colour": "3b532c",
+			"aliases": ["Liquid Biofuel"],
+			"category": "Fluids"
+		},
+        {
+            "colour": "d9d9a2",
+            "aliases": ["Nitric Acid"],
+            "category": "Misc"
+        },
+		{
+			"colour": "595959",
+			"aliases": ["Nitrogen Gas"],
+			"category": "Fluids"
+		},
+        {
+            "colour": "ffff00",
+            "aliases": ["Sulphuric Acid", "Sulfuric Acid"],
+            "category": "Fluids"
+        },
+		{
+			"colour": "d4292e",
+			"aliases": ["Turbofuel"],
+			"category": "Fluids"
+		},
+		{
+			"colour": "7ab0d4",
+			"aliases": ["Water"],
+			"category": "Fluids"
+		},
+        {
+            "colour": "fa9549",
+            "aliases": ["FICSIT Orange"],
+            "category": "Misc"
+        },
+        {
+            "colour": "5bb0c5",
+            "aliases": ["FICSIT Blue"],
+            "category": "Misc"
+        },
+		{
+			"colour": "a56a56",
+			"aliases": ["Bauxite"],
+			"category": "Ores"
+		},
+		{
+			"colour": "957e4e",
+			"aliases": ["Caterium"],
+			"category": "Ores"
+		},
+		{
+			"colour": "3c404e",
+			"aliases": ["Coal"],
+			"category": "Ores"
+		},
+		{
+			"colour": "ae8176",
+			"aliases": ["Copper"],
+			"category": "Ores"
+		},
+		{
+			"colour": "808182",
+			"aliases": ["Iron"],
+			"category": "Ores"
+		},
+		{
+			"colour": "867462",
+			"aliases": ["Limestone"],
+			"category": "Ores"
+		},
+		{
+			"colour": "cf9bcf",
+			"aliases": ["Quartz"],
+			"category": "Ores"
+		},
+		{
+			"colour": "1b3047",
+			"aliases": ["SAM", "Strange Alien Metal"],
+			"category": "Ores"
+		},
+		{
+			"colour": "d0b955",
+			"aliases": ["Sulphur", "Sulfur"],
+			"category": "Ores"
+		},
+		{
+			"colour": "6a9058",
+			"aliases": ["Uranium"],
+			"category": "Ores"
+		}
+	]
+}
