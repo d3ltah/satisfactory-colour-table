@@ -1,10 +1,25 @@
 {
 	"colours": [
         {
-            "colour": "c1c1c1",
-            "aliases": ["Alumina Solution"],
-            "category": "Fluids"
+            "colour": "ca4d5e",
+            "aliases": ["Bacon Agaric"],
+            "category": "Consumables"
         },
+        {
+            "colour": "c1ae86",
+            "aliases": ["Beryl Nut"],
+            "category": "Consumables"
+        },
+        {
+            "colour": "f18886",
+            "aliases": ["Paleberry"],
+            "category": "Consumables"
+        },
+		{
+			"colour": "c1c1c1",
+			"aliases": ["Alumina Solution"],
+			"category": "Fluids"
+		},
 		{
 			"colour": "190019",
 			"aliases": ["Crude Oil"],
@@ -25,21 +40,21 @@
 			"aliases": ["Liquid Biofuel"],
 			"category": "Fluids"
 		},
-        {
-            "colour": "d9d9a2",
-            "aliases": ["Nitric Acid"],
-            "category": "Fluids"
-        },
+		{
+			"colour": "d9d9a2",
+			"aliases": ["Nitric Acid"],
+			"category": "Fluids"
+		},
 		{
 			"colour": "595959",
 			"aliases": ["Nitrogen Gas"],
 			"category": "Fluids"
 		},
-        {
-            "colour": "ffff00",
-            "aliases": ["Sulphuric Acid", "Sulfuric Acid"],
-            "category": "Fluids"
-        },
+		{
+			"colour": "ffff00",
+			"aliases": ["Sulphuric Acid", "Sulfuric Acid"],
+			"category": "Fluids"
+		},
 		{
 			"colour": "d4292e",
 			"aliases": ["Turbofuel"],
@@ -50,31 +65,41 @@
 			"aliases": ["Water"],
 			"category": "Fluids"
 		},
-        {
-            "colour": "a0c4db",
-            "aliases": ["Blue Power Slug"],
-            "category": "Items"
-        },
-        {
-            "colour": "e7c797",
-            "aliases": ["Yellow Power Slug"],
-            "category": "Items"
-        },
-        {
-            "colour": "bc78d0",
-            "aliases": ["Purple Power Slug"],
-            "category": "Items"
-        },
-        {
-            "colour": "fa9549",
-            "aliases": ["FICSIT Orange"],
-            "category": "Misc"
-        },
-        {
-            "colour": "5bb0c5",
-            "aliases": ["FICSIT Blue"],
-            "category": "Misc"
-        },
+		{
+			"colour": "9b9d9e",
+			"aliases": ["Aluminium", "Aluminum"],
+			"category": "Items"
+		},
+		{
+			"colour": "a0c4db",
+			"aliases": ["Blue Power Slug"],
+			"category": "Items"
+		},
+		{
+			"colour": "e7c797",
+			"aliases": ["Yellow Power Slug"],
+			"category": "Items"
+		},
+		{
+			"colour": "bc78d0",
+			"aliases": ["Purple Power Slug"],
+			"category": "Items"
+		},
+		{
+			"colour": "3c3f47",
+			"aliases": ["Steel"],
+			"category": "Ores"
+		},
+		{
+			"colour": "fa9549",
+			"aliases": ["FICSIT Orange"],
+			"category": "Misc"
+		},
+		{
+			"colour": "5bb0c5",
+			"aliases": ["FICSIT Blue"],
+			"category": "Misc"
+		},
 		{
 			"colour": "a56a56",
 			"aliases": ["Bauxite"],
