@@ -96,6 +96,11 @@
             "category": "Consumables"
         },
         {
+            "colour": "cfc7be",
+            "aliases": ["Fabric"],
+            "category": "Processed Resources"
+        },
+        {
             "colour": "eb7d15",
             "aliases": ["Fuel"],
             "category": "Processed Resources"
@@ -121,6 +126,11 @@
             "category": "Processed Resources"
         },
         {
+            "colour": "222220",
+            "aliases": ["Homing Rifle Ammo", "Homing Ammo"],
+            "category": "Consumables"
+        },
+        {
             "colour": "808182",
             "aliases": ["Iron"],
             "category": "Natural Resources"
@@ -129,6 +139,11 @@
             "colour": "ce8224",
             "aliases": ["Iron Rebar"],
             "category": "Consumables"
+        },
+        {
+            "colour": "283927",
+            "aliases": ["Leaves", "Leaf"],
+            "category": "Natural Resources"
         },
         {
             "colour": "3b532c",
@@ -141,9 +156,19 @@
             "category": "Natural Resources"
         },
         {
+            "colour": "93d7f2",
+            "aliases": ["Lizard Doggo Tongue"],
+            "category": "Misc"
+        },
+        {
             "colour": "2c7cb5",
             "aliases": ["Medicinal Inhaler"],
             "category": "Consumables"
+        },
+        {
+            "colour": "5c6960",
+            "aliases": ["Mercer Sphere"],
+            "category": "Items"
         },
         {
             "colour": "69666b",
@@ -181,6 +206,11 @@
             "category": "Processed Resources"
         },
         {
+            "colour": "4954d7",
+            "aliases": ["Polymer Resin"],
+            "category": "Processed Resources"
+        },
+        {
             "colour": "96a8aa",
             "aliases": ["Pulse Nobelisk"],
             "category": "Consumables"
@@ -196,6 +226,11 @@
             "category": "Natural Resources"
         },
         {
+            "colour": "be6a31",
+            "aliases": ["Rifle Ammo"],
+            "category": "Consumables"
+        },
+        {
             "colour": "353232",
             "aliases": ["Rubber"],
             "category": "Processed Resources"
@@ -209,6 +244,11 @@
             "colour": "7a3272",
             "aliases": ["Shatter Rebar"],
             "category": "Consumables"
+        },
+        {
+            "colour": "742a3e",
+            "aliases": ["Somersloop"],
+            "category": "Items"
         },
         {
             "colour": "3c3f47",
@@ -236,6 +276,11 @@
             "category": "Processed Resources"
         },
         {
+            "colour": "b15058",
+            "aliases": ["Turbo Rifle Ammo", "Turbo Ammo"],
+            "category": "Consumables"
+        },
+        {
             "colour": "6a9058",
             "aliases": ["Uranium"],
             "category": "Natural Resources"
@@ -243,6 +288,11 @@
         {
             "colour": "7ab0d4",
             "aliases": ["Water"],
+            "category": "Natural Resources"
+        },
+        {
+            "colour": "ab9a7f",
+            "aliases": ["Wood"],
             "category": "Natural Resources"
         },
         {
