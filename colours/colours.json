@@ -26,6 +26,11 @@
             "category": "Natural Resources"
         },
         {
+            "colour": "c63722",
+            "aliases": ["Black Powder"],
+            "category": "Processed Resources"
+        },
+        {
             "colour": "a0c4db",
             "aliases": ["Blue Power Slug"],
             "category": "Items"
@@ -46,6 +51,26 @@
             "category": "Natural Resources"
         },
         {
+            "colour": "183120",
+            "aliases": ["Circuit Board"],
+            "category": "Products"
+        },
+        {
+            "colour": "eca54e",
+            "aliases": ["Cluster Nobelisk"],
+            "category": "Consumables"
+        },
+        {
+            "colour": "cfa674",
+            "aliases": ["Computer"],
+            "category": "Products"
+        },
+        {
+            "colour": "d2a736",
+            "aliases": ["Crystal Oscillator"],
+            "category": "Products"
+        },
+        {
             "colour": "190019",
             "aliases": ["Crude Oil"],
             "category": "Natural Resources"
@@ -59,6 +84,11 @@
             "colour": "ae8176",
             "aliases": ["Copper"],
             "category": "Natural Resources"
+        },
+        {
+            "colour": "caa154",
+            "aliases": ["Employee of the Planet Gold"],
+            "category": "Misc"
         },
         {
             "colour": "a31d22",
@@ -79,6 +109,11 @@
             "colour": "5bb0c5",
             "aliases": ["FICSIT Blue"],
             "category": "Misc"
+        },
+        {
+            "colour": "68724c",
+            "aliases": ["Gas Nobelisk"],
+            "category": "Consumables"
         },
         {
             "colour": "6d2d78",
@@ -126,8 +161,28 @@
             "category": "Natural Resources"
         },
         {
+            "colour": "922b26",
+            "aliases": ["Nobelisk"],
+            "category": "Consumables"
+        },
+        {
+            "colour": "cdb44c",
+            "aliases": ["Nuke Nobelisk"],
+            "category": "Consumables"
+        },
+        {
             "colour": "f18886",
             "aliases": ["Paleberry"],
+            "category": "Consumables"
+        },
+        {
+            "colour": "4dacf0",
+            "aliases": ["Plastic"],
+            "category": "Processed Resources"
+        },
+        {
+            "colour": "96a8aa",
+            "aliases": ["Pulse Nobelisk"],
             "category": "Consumables"
         },
         {
@@ -139,6 +194,11 @@
             "colour": "cf9bcf",
             "aliases": ["Quartz", "Raw Quartz"],
             "category": "Natural Resources"
+        },
+        {
+            "colour": "353232",
+            "aliases": ["Rubber"],
+            "category": "Processed Resources"
         },
         {
             "colour": "1b3047",
