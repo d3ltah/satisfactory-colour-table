@@ -103,7 +103,7 @@
         {
             "colour": "656269",
             "aliases": ["Empty Canister"],
-            "category": "Processed Resources"
+            "category": "Products"
         },
         {
             "colour": "e0d6b9",
@@ -191,6 +191,11 @@
             "category": "Items"
         },
         {
+            "colour": "474a55",
+            "aliases": ["Motor"],
+            "category": "Products"
+        },
+        {
             "colour": "69666b",
             "aliases": ["Mycelia"],
             "category": "Natural Resources"
@@ -221,6 +226,11 @@
             "category": "Consumables"
         },
         {
+            "colour": "111114",
+            "aliases": ["Petroleum Coke"],
+            "category": "Processed Resources"
+        },
+        {
             "colour": "4dacf0",
             "aliases": ["Plastic"],
             "category": "Processed Resources"
@@ -248,12 +258,17 @@
         {
             "colour": "cfc39d",
             "aliases": ["Quickwire"],
-            "category": "Processed Resources"
+            "category": "Products"
         },
         {
             "colour": "be6a31",
             "aliases": ["Rifle Ammo"],
             "category": "Consumables"
+        },
+        {
+            "colour": "3a3840",
+            "aliases": ["Rotor"],
+            "category": "Products"
         },
         {
             "colour": "353232",
@@ -278,12 +293,17 @@
         {
             "colour": "a6999b",
             "aliases": ["Solid Biofuel"],
-            "category": "Processed Resources"
+            "category": "Products"
         },
         {
             "colour": "742a3e",
             "aliases": ["Somersloop"],
             "category": "Items"
+        },
+        {
+            "colour": "747887",
+            "aliases": ["Stator"],
+            "category": "Products"
         },
         {
             "colour": "3c3f47",
@@ -333,7 +353,7 @@
         {
             "colour": "aa7c5c",
             "aliases": ["Wire"],
-            "category": "Processed Resources"
+            "category": "Products"
         },
         {
             "colour": "ab9a7f",
