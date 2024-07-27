@@ -57,7 +57,10 @@ function loadResults() {
 							? true
 							: alias.toLowerCase().includes(searchInput.value.toLowerCase());
 					}) &&
-					selectedCategories.includes(colour.category)
+					// add colours if at least one of their categories matches the selected checkbox(es)
+					colour.categories.some((category) => {
+						return selectedCategories.includes(category);
+					})
 				) {
 					const colourItem = document.createElement("div");
 					colourItem.classList.add("colour-item");
