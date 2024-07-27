@@ -1,369 +1,414 @@
 {
 	"colours": [
         {
+            "colour": "b48865",
+            "aliases": ["Adaptive Control Unit", "ACU"],
+            "categories": ["Products", "Project Parts"]
+        },
+        {
             "colour": "5c4066",
             "aliases": ["Alien Protein"],
-            "category": "Items"
+            "categories": ["Items", "Processed Resources"]
         },
         {
             "colour": "c1c1c1",
             "aliases": ["Alumina Solution"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
 			"colour": "9b9d9e",
 			"aliases": ["Aluminium", "Aluminum"],
-			"category": "Processed Resources"
+			"categories": ["Processed Resources"]
 		},
+        {
+            "colour": "a55239",
+            "aliases": ["Assembly Director System", "ADS"],
+            "categories": ["Products", "Project Parts"]
+        },
+        {
+            "colour": "5e4542",
+            "aliases": ["Automated Wiring", "AW"],
+            "categories": ["Products", "Project Parts"]
+        },
         {
             "colour": "c1ae86",
             "aliases": ["Beryl Nut"],
-            "category": "Consumables"
+            "categories": ["Consumables"]
         },
         {
             "colour": "a56a56",
             "aliases": ["Bauxite"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "c63722",
             "aliases": ["Black Powder"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "a0c4db",
             "aliases": ["Blue Power Slug"],
-            "category": "Items"
+            "categories": ["Items"]
         },
         {
             "colour": "6e603c",
             "aliases": ["Biomass"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "ca4d5e",
             "aliases": ["Bacon Agaric"],
-            "category": "Consumables"
+            "categories": ["Consumables"]
         },
         {
             "colour": "3c404e",
             "aliases": ["Coal"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "908277",
             "aliases": ["Concrete"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "76545c",
             "aliases": ["Copper Powder"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "183120",
             "aliases": ["Circuit Board"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "eca54e",
             "aliases": ["Cluster Nobelisk"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "cfa674",
             "aliases": ["Computer"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "d2a736",
             "aliases": ["Crystal Oscillator"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "190019",
             "aliases": ["Crude Oil"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "957e4e",
             "aliases": ["Caterium"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "ae8176",
             "aliases": ["Copper"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "caa154",
             "aliases": ["Employee of the Planet Gold"],
-            "category": "Misc"
+            "categories": ["Misc"]
         },
         {
             "colour": "656269",
             "aliases": ["Empty Canister"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "e0d6b9",
             "aliases": ["Encased Industrial Beam"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "a31d22",
             "aliases": ["Explosive Rebar"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "cfc7be",
             "aliases": ["Fabric"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "eb7d15",
             "aliases": ["Fuel"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "fa9549",
             "aliases": ["FICSIT Orange"],
-            "category": "Misc"
+            "categories": ["Misc"]
         },
         {
             "colour": "5bb0c5",
             "aliases": ["FICSIT Blue"],
-            "category": "Misc"
+            "categories": ["Misc"]
         },
         {
             "colour": "68724c",
             "aliases": ["Gas Nobelisk"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "6d2d78",
             "aliases": ["Heavy Oil Residue"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "222220",
             "aliases": ["Homing Rifle Ammo", "Homing Ammo"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "808182",
             "aliases": ["Iron"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "ce8224",
             "aliases": ["Iron Rebar"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "283927",
             "aliases": ["Leaves", "Leaf"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "3b532c",
             "aliases": ["Liquid Biofuel"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "867462",
             "aliases": ["Limestone"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "93d7f2",
             "aliases": ["Lizard Doggo Tongue"],
-            "category": "Misc"
+            "categories": ["Misc"]
+        },
+        {
+            "colour": "b6bfcd",
+            "aliases": ["Magnetic Field Generator", "MFG"],
+            "categories": ["Products", "Project Parts"]
         },
         {
             "colour": "2c7cb5",
             "aliases": ["Medicinal Inhaler"],
-            "category": "Consumables"
+            "categories": ["Consumables"]
         },
         {
             "colour": "5c6960",
             "aliases": ["Mercer Sphere"],
-            "category": "Items"
+            "categories": ["Items"]
+        },
+        {
+            "colour": "191819",
+            "aliases": ["Modular Engine"],
+            "categories": ["Products", "Project Parts"]
         },
         {
             "colour": "474a55",
             "aliases": ["Motor"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "69666b",
             "aliases": ["Mycelia"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "d9d9a2",
             "aliases": ["Nitric Acid"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "595959",
             "aliases": ["Nitrogen Gas"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "922b26",
             "aliases": ["Nobelisk"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
+        },
+        {
+            "colour": "a2f0f5",
+            "aliases": ["Nuclear Pasta"],
+            "categories": ["Products", "Project Parts"]
         },
         {
             "colour": "cdb44c",
             "aliases": ["Nuke Nobelisk"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "f18886",
             "aliases": ["Paleberry"],
-            "category": "Consumables"
+            "categories": ["Consumables"]
         },
         {
             "colour": "111114",
             "aliases": ["Petroleum Coke"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "4dacf0",
             "aliases": ["Plastic"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "4954d7",
             "aliases": ["Polymer Resin"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "96a8aa",
             "aliases": ["Pulse Nobelisk"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "bc78d0",
             "aliases": ["Purple Power Slug"],
-            "category": "Items"
+            "categories": ["Items"]
         },
         {
             "colour": "cf9bcf",
             "aliases": ["Quartz", "Raw Quartz"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "cfc39d",
             "aliases": ["Quickwire"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "be6a31",
             "aliases": ["Rifle Ammo"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "3a3840",
             "aliases": ["Rotor"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "353232",
             "aliases": ["Rubber"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "1b3047",
             "aliases": ["SAM", "Strange Alien Metal"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "7a3272",
             "aliases": ["Shatter Rebar"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "d5d8e3",
             "aliases": ["Silica"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
+        },
+        {
+            "colour": "575b78",
+            "aliases": ["Smart Plating", "SP"],
+            "categories": ["Products", "Project Parts"]
         },
         {
             "colour": "a6999b",
             "aliases": ["Solid Biofuel"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "742a3e",
             "aliases": ["Somersloop"],
-            "category": "Items"
+            "categories": ["Items"]
         },
         {
             "colour": "747887",
             "aliases": ["Stator"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "3c3f47",
             "aliases": ["Steel"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "137faf",
             "aliases": ["Stun Rebar"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "d0b955",
             "aliases": ["Sulphur", "Sulfur"],
-			"category": "Natural Resources"
+			"categories": ["Natural Resources"]
 		},
 		{
 			"colour": "ffff00",
 			"aliases": ["Sulphuric Acid", "Sulfuric Acid"],
-			"category": "Processed Resources"
+			"categories": ["Processed Resources"]
 		},
+        {
+            "colour": "8d6964",
+            "aliases": ["Thermal Propulsion Rocket", "TPR"],
+            "categories": ["Products", "Project Parts"]
+        },
         {
             "colour": "d4292e",
             "aliases": ["Turbofuel"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "b15058",
             "aliases": ["Turbo Rifle Ammo", "Turbo Ammo"],
-            "category": "Consumables"
+            "categories": ["Ammo", "Consumables"]
         },
         {
             "colour": "6a9058",
             "aliases": ["Uranium"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "d4e544",
             "aliases": ["Uranium Waste"],
-            "category": "Processed Resources"
+            "categories": ["Processed Resources"]
+        },
+        {
+            "colour": "261e1e",
+            "aliases": ["Versatile Framework", "VF"],
+            "categories": ["Products", "Project Parts"]
         },
         {
             "colour": "7ab0d4",
             "aliases": ["Water"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "aa7c5c",
             "aliases": ["Wire"],
-            "category": "Products"
+            "categories": ["Products"]
         },
         {
             "colour": "ab9a7f",
             "aliases": ["Wood"],
-            "category": "Natural Resources"
+            "categories": ["Natural Resources"]
         },
         {
             "colour": "e7c797",
             "aliases": ["Yellow Power Slug"],
-            "category": "Items"
+            "categories": ["Items"]
         }
 	]
 }
