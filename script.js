@@ -58,8 +58,11 @@ function loadResults() {
 							: alias.toLowerCase().includes(searchInput.value.toLowerCase());
 					}) &&
 					// add colours if at least one of their categories matches the selected checkbox(es)
+					// or if no checkboxes are selected
 					colour.categories.some((category) => {
-						return selectedCategories.includes(category);
+						return selectedCategories.length === 0
+							? true
+							: selectedCategories.includes(category);
 					})
 				) {
 					const colourItem = document.createElement("div");

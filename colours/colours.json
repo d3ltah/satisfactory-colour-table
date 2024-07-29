@@ -18,7 +18,7 @@
         {
 			"colour": "9b9d9e",
 			"aliases": ["Aluminium", "Aluminum"],
-			"categories": ["Processed Resources"]
+			"categories": ["Metals", "Processed Resources"]
 		},
         {
             "colour": "a55239",
@@ -71,11 +71,6 @@
             "categories": ["Processed Resources"]
         },
         {
-            "colour": "76545c",
-            "aliases": ["Copper Powder"],
-            "categories": ["Processed Resources"]
-        },
-        {
             "colour": "183120",
             "aliases": ["Circuit Board"],
             "categories": ["Products"]
@@ -103,12 +98,17 @@
         {
             "colour": "957e4e",
             "aliases": ["Caterium"],
-            "categories": ["Natural Resources"]
+            "categories": ["Metals", "Natural Resources"]
         },
         {
             "colour": "ae8176",
             "aliases": ["Copper"],
-            "categories": ["Natural Resources"]
+            "categories": ["Metals", "Natural Resources"]
+        },
+        {
+            "colour": "76545c",
+            "aliases": ["Copper Powder"],
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "caa154",
@@ -168,7 +168,7 @@
         {
             "colour": "808182",
             "aliases": ["Iron"],
-            "categories": ["Natural Resources"]
+            "categories": ["Metals", "Natural Resources"]
         },
         {
             "colour": "ce8224",
@@ -343,7 +343,7 @@
         {
             "colour": "3c3f47",
             "aliases": ["Steel"],
-            "categories": ["Processed Resources"]
+            "categories": ["Metals", "Processed Resources"]
         },
         {
             "colour": "137faf",
@@ -378,7 +378,7 @@
         {
             "colour": "6a9058",
             "aliases": ["Uranium"],
-            "categories": ["Natural Resources"]
+            "categories": ["Metals", "Natural Resources"]
         },
         {
             "colour": "d4e544",
@@ -388,7 +388,7 @@
         {
             "colour": "261e1e",
             "aliases": ["Versatile Framework", "VF"],
-            "categories": ["Project Parts"]
+            "categories": ["Products", "Project Parts"]
         },
         {
             "colour": "7ab0d4",
