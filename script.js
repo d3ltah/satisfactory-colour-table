@@ -5,6 +5,7 @@ const checkboxes = document.querySelectorAll(".checkbox-container");
 const searchInput = document.getElementById("search-input");
 
 const ficsitCheckmarks = document.querySelectorAll(".ficsit-checkmark");
+const sfLogos = document.querySelectorAll(".sf-logo");
 
 checkboxes.forEach((checkbox) => {
 	checkbox.addEventListener("click", (e) => {
@@ -22,6 +23,14 @@ ficsitCheckmarks.forEach((ficsitCheckmark) => {
 		.then((response) => response.text())
 		.then((data) => {
 			ficsitCheckmark.innerHTML = data;
+		});
+});
+
+sfLogos.forEach((sfLogo) => {
+	fetch("img/sf_logo.svg")
+		.then((response) => response.text())
+		.then((data) => {
+			sfLogo.innerHTML = data;
 		});
 });
 

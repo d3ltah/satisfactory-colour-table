@@ -56,10 +56,24 @@ select {
 	appearance: none;
 }
 
+.sf-logo {
+	height: 2em;
+}
+
+.sf-logo svg {
+	height: 100%;
+}
+
 .back-arrow {
 	margin-right: 10px;
 	text-decoration: none;
 	color: var(--ficsit-orange);
+}
+
+#header {
+	display: flex;
+	gap: 1ch;
+	align-items: center;
 }
 
 #desc-search {
