@@ -56,7 +56,7 @@
             "categories": ["Processed Resources"]
         },
         {
-            "colour": "ca4d5e",
+            "colour": "88342d",
             "aliases": ["Bacon Agaric"],
             "categories": ["Consumables"]
         },
@@ -206,7 +206,7 @@
             "categories": ["Consumables"]
         },
         {
-            "colour": "5c6960",
+            "colour": "692787",
             "aliases": ["Mercer Sphere"],
             "categories": ["Items"]
         },
@@ -306,8 +306,8 @@
             "categories": ["Processed Resources"]
         },
         {
-            "colour": "1b3047",
-            "aliases": ["SAM", "Strange Alien Metal"],
+            "colour": "65369c",
+            "aliases": ["SAM", "Strange Alien Matter"],
             "categories": ["Natural Resources"]
         },
         {
@@ -331,7 +331,7 @@
             "categories": ["Products"]
         },
         {
-            "colour": "742a3e",
+            "colour": "e73048",
             "aliases": ["Somersloop"],
             "categories": ["Items"]
         },
