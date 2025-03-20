@@ -61,6 +61,11 @@
             "categories": ["Consumables"]
         },
         {
+            "colour": "252528",
+            "aliases": ["Cable"],
+            "categories": ["Products"]
+        },
+        {
             "colour": "3c404e",
             "aliases": ["Coal"],
             "categories": ["Natural Resources"]
@@ -111,6 +116,11 @@
             "categories": ["Processed Resources"]
         },
         {
+            "colour": "e3b590",
+            "aliases": ["Diamonds"],
+            "categories": ["Processed Resources"]
+        },
+        {
             "colour": "caa154",
             "aliases": ["Employee of the Planet Gold"],
             "categories": ["Misc"]
@@ -126,6 +136,11 @@
             "categories": ["Products"]
         },
         {
+            "colour": "76f5e8",
+            "aliases": ["Excited Photonic Matter", "EPM"],
+            "categories": ["Processed Resources"]
+        },
+        {
             "colour": "a31d22",
             "aliases": ["Explosive Rebar"],
             "categories": ["Ammo", "Consumables"]
@@ -134,6 +149,16 @@
             "colour": "cfc7be",
             "aliases": ["Fabric"],
             "categories": ["Processed Resources"]
+        },
+        {
+            "colour": "ca6707",
+            "aliases": ["Ficsite"],
+            "categories": ["Metals", "Processed Resources"]
+        },
+        {
+            "colour": "ed8c0e",
+            "aliases": ["Ficsite Trigon"],
+            "categories": ["Processed Resources", "Products"]
         },
         {
             "colour": "eb7d15",
@@ -266,6 +291,11 @@
             "categories": ["Processed Resources"]
         },
         {
+            "colour": "d1c447",
+            "aliases": ["Plutonium Fuel Rod"],
+            "categories": ["Processed Resources", "Products"]
+        },
+        {
             "colour": "4954d7",
             "aliases": ["Polymer Resin"],
             "categories": ["Processed Resources"]
@@ -291,9 +321,19 @@
             "categories": ["Products"]
         },
         {
+            "colour": "dbbc4b",
+            "aliases": ["Radio Control Unit", "RCU"],
+            "categories": ["Products"]
+        },
+        {
             "colour": "be6a31",
             "aliases": ["Rifle Ammo"],
             "categories": ["Ammo", "Consumables"]
+        },
+        {
+            "colour": "bd251a",
+            "aliases": ["Rocket Fuel"],
+            "categories": ["Processed Resources"]
         },
         {
             "colour": "3a3840",
@@ -364,6 +404,11 @@
             "colour": "8d6964",
             "aliases": ["Thermal Propulsion Rocket", "TPR"],
             "categories": ["Products", "Project Parts"]
+        },
+        {
+            "colour": "a69aaa",
+            "aliases": ["Time Crystal", "TC"],
+            "categories": ["Processed Resources", "Products"]
         },
         {
             "colour": "d4292e",
